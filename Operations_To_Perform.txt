@@ -1,0 +1,5 @@
+1. Traversal --> 				To print all the elements of the DS
+2. Insertion (value/Position)--> 	To insert any value in the DS
+3. Deletion (value/Position)--> 	To delete any value in the DS
+4. Reverse --> 				Reverse the data in the DS
+5. Polynomial Representation-->	(S7s`how/BODMAS Operations) Polynomial Representation
