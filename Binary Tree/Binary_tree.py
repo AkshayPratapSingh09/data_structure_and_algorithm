@@ -26,6 +26,7 @@ class node:
             elements += self.left.in_order_traversal()
 
         elements.append(self.data)
+        print(elements)
 
         if self.right:
             elements += self.right.in_order_traversal()
