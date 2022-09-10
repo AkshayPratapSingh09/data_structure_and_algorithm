@@ -1,3 +1,4 @@
+
 class treenode:
     def __init__(self,data):
         self.data = data
@@ -39,7 +40,8 @@ class treenode:
         return root
 
     def print_tree(self):
-        print(self.data)
+        self.build_product_tree()
+        print(root.data)
         for child in self.children:
             child.print_tree()
 
@@ -51,6 +53,7 @@ a.add_child(b)
 # print(b.parent)
 # print(a.data)
 # print(a.print_tree())
-b = a.build_product_tree
-print(b)
+a.build_product_tree
+a.print_tree
+# print(b)
 # print(a.build_product_tree.root.data)
