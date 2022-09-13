@@ -9,7 +9,7 @@ def check(string):
     d = '}'
     e = '['
     f = ']'
-    if a and b in string:
+    # if a and b in string:
 
 # print(([{(}]))
 
@@ -18,6 +18,7 @@ def check(string):
 
 
 
-([)]
+# Case Fails here
+# ([)]
 
 
