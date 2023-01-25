@@ -5,3 +5,5 @@ def fact(nums1):
         return nums1 * fact(nums1-1)
     
 print(fact(5))
+
+print("Solved")
