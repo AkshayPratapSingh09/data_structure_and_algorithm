@@ -9,7 +9,5 @@ def mono(insert_values):
     print(stack)
 
 a = mono([1,2,3,76,43,4,54,67,89,5])
-# l = [1,2,3,76,43,4,54,67,89,5]
 # # l.sort()
 # print(l.insert(0,45))
-# print("")
