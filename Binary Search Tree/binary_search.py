@@ -1,26 +1,18 @@
-def search(nums,target):
-    l = 0
-    u = len(nums) - 1
+# Binary Search in python
 
-    while l<=u:
-        mid = (l+u)//2
-        print("Mid here is",mid)
+def binarySearch(array, x, low, high):
 
-        if nums[mid] == target:
-            print("Found answer")
-            return mid+1
-            break
-        
-        elif nums[mid] > target:
-            u = mid-1
+    while low <= high:
+
+        mid = low + (high - low)//2
+
+        if array[mid] == x:
+            return mid
+
+        elif array[mid] < x:
+            low = mid + 1
 
         else:
-            l = mid+1
+            high = mid - 1
 
-    if l>u:
-        return False
-
-arr = [45,56,76,78,79.89,90]
-target = 76
-
-print(search(arr,target))
+    return -1
