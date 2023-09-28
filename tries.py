@@ -40,3 +40,5 @@ class Trie(object):
         self.dfs(node, x[:-1])
 
         return sorted(self.output, key=lambda x: x[1], reverse=True)
+
+print("Trial")
